@@ -95,17 +95,17 @@ public class Parcial {
         }
                 System.out.println("el numero que usted inserto fue:" + x);
                 hol.llenar(x);
-                System.out.println(hol.gethola());
+                //System.out.println(hol.gethola());
 }
-        
-        System.out.println("------Calculadora-------" + hol.gethola());
+        System.out.println("----Organizados en vertical----");
+        for(String cadena :arbol) {
+            System.out.println(cadena);
+        }
+        System.out.println("------Calculadora-------");
         
         hol.sumar();
         calcul.imprimir();
         
-        for(String cadena :arbol) {
-            System.out.println(cadena);
-        }
     }
     
 }
